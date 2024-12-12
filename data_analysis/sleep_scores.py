@@ -2,8 +2,6 @@
 Takes sleep data for a night and calculates scores
 - default callback period of 7 days for webapp
 """
-import sys
-sys.path.insert(0, '/Users/G.Alexander/Documents/Imperial DE/DE4_1/IoT/somna') # change to path
 
 import numpy as np
 from datetime import datetime, timedelta
