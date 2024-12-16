@@ -1,3 +1,4 @@
+--only-binary=:all:
 annotated-types==0.7.0
 anyio==4.4.0
 appdirs==1.4.4
@@ -42,7 +43,7 @@ nest-asyncio==1.6.0
 numpy==2.1.0
 oauthlib==3.2.2
 packaging==24.2
-pandas==2.2.2
+pandas>=2.2.0,<2.3.0
 parso==0.8.4
 pexpect==4.9.0
 pillow==11.0.0
