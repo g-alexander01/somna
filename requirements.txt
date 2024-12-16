@@ -3,7 +3,7 @@ anyio==4.4.0
 appdirs==1.4.4
 appnope==0.1.4
 argon2-cffi==23.1.0
-arrow==1.3.0
+arrow>=1.2.0,<2.0.0
 asttokens==2.4.1
 attrs==24.2.0
 babel==2.16.0
@@ -24,7 +24,7 @@ fastjsonschema==2.20.0
 fitfile==1.1.8
 flake8==7.1.1
 fonttools==4.53.1
-garmindb==3.6.1
+garmindb>=3.5.0,<4.0.0
 garth==0.4.46
 greenlet==3.1.1
 idbutils==1.1.0
