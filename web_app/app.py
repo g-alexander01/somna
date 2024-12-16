@@ -12,9 +12,9 @@ from data_analysis.sleep_scores import optimal_bedtime, sleep_regularity_index, 
 from data_analysis.environment_score import diff_to_ideal
 
 # Schedule update daily at 09:00
-scheduler = BackgroundScheduler()
-scheduler.add_job(update_data, 'cron', hour=9)  # Schedule daily at 9 am
-scheduler.start()
+# scheduler = BackgroundScheduler()
+# scheduler.add_job(update_data, 'cron', hour=9)  # Schedule daily at 9 am
+# scheduler.start()
 
 # Set timezone to London and get the current date and time
 london_timezone = ZoneInfo("Europe/London")
