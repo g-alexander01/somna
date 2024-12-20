@@ -6,5 +6,7 @@ The GarminDB module by Tom Goetz used in this project can be accessed at the rep
 
 Then run garmindb_cli.py --all --download --import --analyze to import data.
 
+YouTube Link: https://youtu.be/DhhkfUPOv0A?si=57hq29oGKJbp9mg2 
+
 ## Related Repositories
 - [GarminDB](https://github.com/tcgoetz/GarminDB.git)
